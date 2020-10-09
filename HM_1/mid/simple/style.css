@@ -1,0 +1,32 @@
+.body, .topnav{
+    width: 980px;
+    border: solid 1px blue;
+    margin: 5px auto;
+}
+
+.topnav{
+    height: 50px;
+}
+
+
+.body{
+    min-height: 500px;
+    display: flex;
+}
+
+
+nav{
+    width: 200px;
+    height: 500px;
+    border-right: 1px solid black;
+}
+
+article {
+    width: 780px;
+    min-height: 500px;
+    border: solid blue 1px;
+}
+
+article p {
+    margin: 20px;
+}
