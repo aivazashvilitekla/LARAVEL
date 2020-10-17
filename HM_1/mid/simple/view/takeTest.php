@@ -17,7 +17,7 @@ $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $data = $stmt->fetchColumn();
 $total_questions = $data;
 
-
+$conn = null;
 ?>
 <article>
     <h2>Test Your Knowledge</h2>
@@ -27,5 +27,5 @@ $total_questions = $data;
 
     </ul>
 
-    <a href="question.php?n=1" class="start">Start Quiz</a>
+    <a href="view/question.php?n=1" class="start">Start Quiz</a>
 </article>

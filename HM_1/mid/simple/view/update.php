@@ -1,7 +1,7 @@
 <article>
     <h1>Update</h1>
     <div>
-        <table border="1" cellpadding="10">
+        <table border="1" cellpadding="10" >
             <?php
             $stmt = $conn->prepare("SELECT * FROM words");
             $stmt->execute();
